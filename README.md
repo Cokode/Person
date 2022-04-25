@@ -38,7 +38,7 @@ public class Person {
     }
 
     public String getFullName(){
-        if(firstName.isEmpty() && lastName.isEmpty()) return "";
+        if(firstName.isEmpty() && lastName.isEmpty()) return " ";
         if(firstName.isEmpty()) return lastName;
         if(lastName.isEmpty()) return firstName;
         return firstName + lastName;
